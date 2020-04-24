@@ -1,2 +1,8 @@
 # eReader
- Reading moves you towards perfection. In this difficult time of #COVID-19, I have made a web-page with jQuery and Bootstra to inculcate this habit.
+ Reading moves you towards perfection. In this difficult time of #COVID-19, I have made a web-page with jQuery and Bootstrap to inculcate this habit.
+# Author
+Gaurav Kabra | gauravkabra.official@gmail.com
+
+# Pull Request
+In case you find missing feature or something that pulls down the web-page.
+
