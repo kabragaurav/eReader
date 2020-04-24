@@ -1,0 +1,78 @@
+.chapter-thumbnail {
+  margin-top: 10px;   /* add a margin*/
+  white-space : pre;  /* preserve the original line breaks and spacing */
+  overflow : hidden;  /* Since it is just thumbnail, so only preview is enough */
+  max-height: 150px;  /* make sure that the box doesn't get too big */
+  height : 150px;     /* even if the text is big */
+  border-radius: 10px;/* rounded corners */
+}
+
+#mainViewer {
+  margin-top: 10px;
+  font-size:20px;
+  white-space : pre;   /* preserve the original line breaks (see above)*/
+}
+
+/* Night mode */
+.night{
+  color:white;
+  background:#000000;
+}
+
+/* Info button */ 
+.info-icon:hover{
+  transition: .5s ease;
+  opacity: 0.3;
+}
+
+/* Image */
+.image-container{
+  padding: 1em 0;
+  float: left;
+  width: 100%;
+}
+.image-content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+.content-image{
+  width: 100%;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.image-content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+
+.fadeIn-bottom{
+  top: 80%;
+}
