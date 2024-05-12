@@ -7,5 +7,5 @@ Gaurav Kabra | gauravkabra.official@gmail.com
 # Pull Request
 In case you find missing feature or something that pulls the page down.
 #### Demo
-https://gaurav-kabra-official.github.io/eReader/
+https://kabragaurav.github.io/eReader/
 
